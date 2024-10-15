@@ -1,0 +1,46 @@
+.security-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 30px  ;
+  }
+  
+  .formStyle {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .labelStyle {
+    display: block;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .inputStyle {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px; /* Add space for the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .iconStyle {
+    position: absolute;
+    right: 10px;
+    color: #888;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
